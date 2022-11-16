@@ -26,8 +26,24 @@
     background-color: white;
 }
 
-.chat{
-    height: 67%;
-    overflow: scroll;
+#area-chat{
+    background-image: url("../img/mine.jpg");    
 }
 
+.sent{
+    background-color: #009688;
+    color: white;
+    max-width: 15%;
+    border-radius: 10px;
+    padding: 8px;
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+
+.received{
+    background-color: white;
+    max-width: 15%;
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
