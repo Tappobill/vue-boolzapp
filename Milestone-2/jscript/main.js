@@ -1,7 +1,7 @@
 var app = new Vue({
     el: '#root',
     data: {
-        currentContact: null,
+        currentContact: null,        
         contacts: [
             {
                 name: 'Michele',
@@ -165,6 +165,9 @@ var app = new Vue({
             //     ],
             // }
         ]
+    },
+    mounted() {
+        this.currentContact = this.contacts[0]
     },
     methods: {
         cliccaContatto(elem, index) {
