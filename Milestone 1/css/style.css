@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#root{
+    background-image: linear-gradient(to bottom, #009688 0px, #009688 15vh, #dddbd1 15vh, #dddbd1 100%);
+    height: 100vh;
+}
+
+#area-notifiche{
+    background-color: #009688;
+}
+
+#mio-avatar{
+    width: 40px;
+}
+
+.avatar-chat{
+    width: 50px;
+}
+
+.input-group-text{
+    background-color: white;
+}
+
+.chat{
+    height: 67%;
+    overflow: scroll;
+}
+
