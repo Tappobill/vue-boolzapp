@@ -203,9 +203,9 @@ var app = new Vue({
     },
     computed: {
         contattiFiltrati() {
-            let varinputSearch = this.inputSearch;
+            let varinputSearch = this.inputSearch.toLowerCase();
             return this.contacts.filter(function (contact) {
-                return contact.name.indexOf(varinputSearch) > -1;
+                return contact.name.toLowerCase().indexOf(varinputSearch) > -1;
             })
         },
         contattiDefault() {
