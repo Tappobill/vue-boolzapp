@@ -27,7 +27,14 @@
 }
 
 #area-chat{
-    background-image: url("../img/mine.jpg");    
+    background-image: url("../img/mine.jpg");     
+    overflow-y: scroll;
+    height: 600px;
+}
+
+.chat{
+    height: 500px;
+    overflow-y: scroll;
 }
 
 .sent{
